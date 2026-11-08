@@ -9,7 +9,7 @@ from google.genai import types
 app = FastAPI(title="Smart Server AI", version="1.0.0")
 
 API_KEY = os.getenv("GEMINI_API_KEY")
-MODEL_NAME = os.getenv("GEMINI_MODEL", "gemini-flash-latest")
+MODEL_NAME = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
 
 client = genai.Client(api_key=API_KEY) if API_KEY else None
 
