@@ -53,6 +53,9 @@ pycups==2.0.4
 Pygments==2.19.2
 PyGObject==3.56.2
 PyJWT==2.10.1
+pywebview==6.2.1
+PyYAML==6.0.3
+QtPy==2.4.3
 pyparsing==3.3.2
 pyserial==3.5
 python-apt==3.1.0+ubuntu1
